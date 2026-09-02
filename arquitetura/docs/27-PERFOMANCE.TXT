@@ -1,0 +1,14 @@
+usaria Particionamento mensais e diarios porque o crescimento da tabela é diario.
+porque assim podendo acessar às consultas pelas partições nisso melhoraria o desempenho da base de dados.
+
+clustering index - para organização dos dados principalmente às de transação como ID_FATO_TRANSAÇÃO,
+ID_CLIENTE,DATA_TRANSAÇÃO, ID_CONTA.
+
+view / materializadas - usaria view para dados que são calculados como saldo_medio. 
+
+e processo incremental para não consumir muito a base principalmente se houve mudanças em dados existente usando slowly changing Dimension tipo 2 
+
+e distruição por cluster Para distribuir  e paralelismo dos dados em clusters  assim melhoraria o desempenho
+de armazenamento dos dados.
+
+tecnologias pyspark e databricks.
