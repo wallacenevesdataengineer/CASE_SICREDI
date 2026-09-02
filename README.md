@@ -9,7 +9,7 @@ Raw/Bronze - dados brutos.
 
 Trusted/Silver - Transformação de dados e padronizados.
 
-Gold/Dimensional - Modelo desenolvido star schema com tabelas fatos e dimensões.
+Gold/Dimensional - Modelo desenvolvido star schema com tabelas fatos e dimensões.
 
 Semântica - camada de BI e com às regras de négocios definidas.
 
