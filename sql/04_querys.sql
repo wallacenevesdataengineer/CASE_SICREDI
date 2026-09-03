@@ -72,7 +72,7 @@ JOIN DIM_CLIENTE C
 ON S.ID_CLIENTE = C.ID_CLIENTE 
 WHERE S.SALDO_MEDIO > 10000
 AND T.TIPO_TRANSACAO = 'PIX'
-AND T.QTD_TRANSACOES_PIX >= 10 
+AND P.QTD_TRANSACOES_PIX >= 10 
 ORDER BY SALDO_MEDIO DESC;
 -----------------------------------------------------------------------------
 --historico consulta 
