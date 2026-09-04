@@ -51,8 +51,8 @@ def main():
                               -- calculo de pix por ANO/MES
                               WITH PIX_CONSOLIDADO(
                                     SELECT T.ID_CLIENTE,
-                                          DATEPART(YEAR,CAL.DATA_TRANSACAO) AS ANO,
-                                          DATEPART(MONTH,CAL.DATA_TRANSACAO) AS MES,
+                                          DATEPART(YEAR,TT.DATA) AS ANO,
+                                          DATEPART(MONTH,TT.DATA) AS MES,
                                           COUNT(T.ID_FATO_TRANSACAO) AS QTD_TRANSACOES_PIX,
                                           SUM(T.VALOR_TRANSACAO) AS VALOR_TOTAL_PIX   
                                     FROM FATO_TRANSACAO T
