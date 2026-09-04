@@ -5,7 +5,7 @@ def main():
       # Create SparkSession 
       spark = SparkSession.builder \
             .master("local[1]") \
-            .appName("SparkByExamples.com") \
+            .appName("case_sicredi") \
             .getOrCreate() 
 
       print("Inicio da sessão pypsark")
