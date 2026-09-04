@@ -109,5 +109,6 @@ def main():
       df_return_historico_gerente = spark.sql(df_query_historico_gerente)
       df_return_historico_gerente.show()
 
+      print('terminando a sessao pyspark')
 if __name__ == "__main__":
       main()
