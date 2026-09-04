@@ -14,7 +14,7 @@ def main():
       df_saldo = createOrReplaceTempView('F_SALDO')
       df_cliente = createOrReplaceTempView('DIM_CLIENTE')
       df_tempo = createOrReplaceTempView('DIM_TEMPO')
-      df_brdige = createOrReplaceTempView('BRIGDE_CLIENTE_GERENTE')
+      df_brigde = createOrReplaceTempView('BRIGDE_CLIENTE_GERENTE')
       df_agencia = createOrReplaceTempView('DIM_AGENCIA')
       df_gerente = createOrReplaceTempView('DIM_GERENTE')
 
